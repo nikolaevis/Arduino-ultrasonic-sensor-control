@@ -1,0 +1,17 @@
+﻿<Application x:Class="UltrasonicControl.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:UltrasonicControl"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <sys:String x:Key="SensorSwitchOn">Sensor On</sys:String>
+        <sys:String x:Key="SensorSwitchOff">Sensor Off</sys:String>
+        <sys:String x:Key="BoardInitializeOn">Enable Board</sys:String>
+        <sys:String x:Key="BoardInitializeOff">Disable Board</sys:String>
+        <sys:String x:Key="StartStopReadOn">Start data read</sys:String>
+        <sys:String x:Key="StartStopReadOff">Stop data read"</sys:String>
+        <BitmapImage x:Key="RedLed" UriSource="/icons/redLed.png"/>
+        <BitmapImage x:Key="GreenLed" UriSource="/icons/greenLed.png"/>
+    </Application.Resources>
+</Application>
